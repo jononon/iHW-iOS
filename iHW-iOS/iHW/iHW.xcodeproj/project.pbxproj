@@ -25,6 +25,11 @@
 		491CCB78178E691000736453 /* IHWNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CCB77178E691000736453 /* IHWNote.m */; };
 		491CCB7B178F3BCE00736453 /* IHWDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CCB7A178F3BCE00736453 /* IHWDate.m */; };
 		5F4558C9C04B0FAFC1FF8F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF7FD4BE66EB12F98698ECE /* libPods.a */; };
+		A066EFA91AF597740026910A /* IHWHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CCB6E178E685800736453 /* IHWHoliday.m */; };
+		A066EFAA1AF597820026910A /* IHWDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CCB7A178F3BCE00736453 /* IHWDate.m */; };
+		A066EFAB1AF597900026910A /* IHWPeriodCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA2977817BBEB430087104A /* IHWPeriodCellView.m */; };
+		A066EFAC1AF597990026910A /* IHWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DF79817BDF41500D5651C /* IHWUtils.m */; };
+		A066EFAE1AF598140026910A /* IHWCurriculum.m in Sources */ = {isa = PBXBuildFile; fileRef = 491CCB58178E63D800736453 /* IHWCurriculum.m */; };
 		A0AD67BE1AF565DC001AD490 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD67BD1AF565DC001AD490 /* InterfaceController.m */; };
 		A0AD67C11AF565DC001AD490 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD67C01AF565DC001AD490 /* NotificationController.m */; };
 		A0AD67C41AF565DC001AD490 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD67C31AF565DC001AD490 /* GlanceController.m */; };
@@ -885,6 +890,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A066EFAE1AF598140026910A /* IHWCurriculum.m in Sources */,
+				A066EFAC1AF597990026910A /* IHWUtils.m in Sources */,
+				A066EFAB1AF597900026910A /* IHWPeriodCellView.m in Sources */,
+				A066EFAA1AF597820026910A /* IHWDate.m in Sources */,
+				A066EFA91AF597740026910A /* IHWHoliday.m in Sources */,
 				A0AD67C11AF565DC001AD490 /* NotificationController.m in Sources */,
 				A0AD67BE1AF565DC001AD490 /* InterfaceController.m in Sources */,
 				A0AD67C41AF565DC001AD490 /* GlanceController.m in Sources */,
@@ -1063,6 +1073,10 @@
 				INFOPLIST_FILE = "iHW WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
@@ -1092,6 +1106,10 @@
 				INFOPLIST_FILE = "iHW WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
