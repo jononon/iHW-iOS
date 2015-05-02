@@ -7,7 +7,6 @@
 //
 
 #import "InterfaceController.h"
-#import "IHWCurriculum.h"
 #import "IHWHoliday.h"
 #import "IHWDate.h"
 #import "IHWPeriodCellView.h"
