@@ -8,7 +8,10 @@
 
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
+#import "IHWDate.h"
+#import "IHWDay.h"
 
 @interface InterfaceController : WKInterfaceController
-
+@property (nonatomic, strong) IHWDate *date;
+@property (nonatomic, strong) IHWDay *day;
 @end

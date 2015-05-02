@@ -23,7 +23,20 @@
                             <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
                         </dateLabel>
                         <separator alignment="left" id="35I-vH-U7b"/>
+                        <group width="1" alignment="left" id="fRq-3K-Ds1"/>
+                        <group width="1" alignment="left" id="7p9-hm-Ect">
+                            <items>
+                                <label alignment="left" text="Day" id="eQB-TQ-ieA"/>
+                                <label alignment="left" text="Label" id="ed6-Pa-2om"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="x9q-5B-wlh"/>
                     </items>
+                    <connections>
+                        <outlet property="day" destination="7p9-hm-Ect" id="5Qc-Lf-806"/>
+                        <outlet property="holiday" destination="fRq-3K-Ds1" id="hU8-YL-RSm"/>
+                        <outlet property="period" destination="x9q-5B-wlh" id="dL0-zt-vwn"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
