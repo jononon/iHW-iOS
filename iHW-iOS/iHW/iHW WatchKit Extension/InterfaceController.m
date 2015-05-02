@@ -11,6 +11,11 @@
 
 @interface InterfaceController()
 
+@property (nonatomic, weak) IBOutlet WKInterfaceLabel *currentDay;
+@property (nonatomic, weak) IBOutlet WKInterfaceLabel *nextPeriodName;
+@property (nonatomic, weak) IBOutlet WKInterfaceLabel *currentPeriodName;
+@property (nonatomic, weak) IBOutlet WKInterfaceTimer *nextPeriodStart;
+
 @end
 
 
