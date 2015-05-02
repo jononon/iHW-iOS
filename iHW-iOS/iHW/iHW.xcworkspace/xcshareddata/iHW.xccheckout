@@ -22,7 +22,7 @@
 		<key>5565998DF04413847F03B2FC0A08FB6BA2627085</key>
 		<string>../../..</string>
 		<key>D391785042AB890B57055225EF705F73AA830976</key>
-		<string>../../../iHW-resources/</string>
+		<string>../../../iHW-resources</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/bkim1/iHW-iOS.git</string>
