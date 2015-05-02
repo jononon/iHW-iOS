@@ -11,9 +11,7 @@
 #import "IHWHoliday.h"
 #import "IHWDate.h"
 #import "IHWPeriodCellView.h"
-
-
-
+#import "IHWUtils.h"
 
 @interface InterfaceController()
 
@@ -54,7 +52,6 @@
     } else {
         [self.holidayGroup setHidden:YES];
         [self.dayGroup setHidden:NO];
-    }
     bool good = false;
     int index = 1;
     IHWPeriodCellView *view;
@@ -65,7 +62,15 @@
         if([view createCountdownViewIfNeeded]) good=true;
     }
     int currentPeriod = index;
+        [self.currentPeriodName setText:getOrdinal(currentPeriod)];
+        [self.currentPeriodName setHidden:NO];
     
+    int nextPeriod = currentPeriod+1;
+        [self.nextPeriodName setText:getOrdinal(nextPeriod)];
+        [self.nextPeriodName setHidden:NO];
+        
+        [self.currentDay setText:self.day.title];
+    }
 }
 
 
