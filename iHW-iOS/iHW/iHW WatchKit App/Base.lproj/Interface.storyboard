@@ -23,23 +23,53 @@
                             <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
                         </dateLabel>
                         <separator alignment="left" id="35I-vH-U7b"/>
-                        <group width="1" alignment="left" id="fRq-3K-Ds1"/>
+                        <group width="1" height="40" alignment="left" layout="vertical" id="fRq-3K-Ds1">
+                            <items>
+                                <label alignment="center" text="No School" id="V1X-tM-q3A"/>
+                                <label alignment="center" text="Label" id="1Yd-YB-Mlf"/>
+                            </items>
+                        </group>
                         <group width="1" alignment="left" id="7p9-hm-Ect">
                             <items>
                                 <label alignment="left" text="Day" id="eQB-TQ-ieA"/>
                                 <label alignment="left" text="Label" id="ed6-Pa-2om"/>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="x9q-5B-wlh"/>
+                        <group width="1" alignment="left" layout="vertical" id="x9q-5B-wlh">
+                            <items>
+                                <label alignment="center" text="Current Period" id="6OS-W6-WPu"/>
+                                <group width="1" alignment="left" id="7b0-6z-Zex">
+                                    <items>
+                                        <label alignment="left" text="Label" id="GFk-f0-EI6"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="adp-xg-GdS">
+                            <items>
+                                <label alignment="center" text="Next Period" id="NVY-zv-TPG"/>
+                                <group width="1" alignment="left" id="PdM-12-YFg">
+                                    <items>
+                                        <label alignment="left" text="Label" id="VHw-mv-i6i"/>
+                                        <timer alignment="right" id="LzT-pF-Tpu"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
                     </items>
                     <connections>
+                        <outlet property="currentDay" destination="ed6-Pa-2om" id="Hj0-Yq-sSO"/>
+                        <outlet property="currentPeriodName" destination="GFk-f0-EI6" id="73b-m0-Uus"/>
                         <outlet property="day" destination="7p9-hm-Ect" id="5Qc-Lf-806"/>
                         <outlet property="holiday" destination="fRq-3K-Ds1" id="hU8-YL-RSm"/>
+                        <outlet property="nextPeriodCountdown" destination="LzT-pF-Tpu" id="Hws-N8-lmC"/>
+                        <outlet property="nextPeriodName" destination="VHw-mv-i6i" id="Uq2-vA-J7J"/>
+                        <outlet property="passingPeriodGroup" destination="adp-xg-GdS" id="Abe-9w-3AQ"/>
                         <outlet property="period" destination="x9q-5B-wlh" id="dL0-zt-vwn"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="347"/>
+            <point key="canvasLocation" x="235" y="345.75"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
