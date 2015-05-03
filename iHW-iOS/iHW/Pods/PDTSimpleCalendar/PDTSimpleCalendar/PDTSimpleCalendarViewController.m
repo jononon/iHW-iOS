@@ -31,9 +31,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 //Number of days per week
 @property (nonatomic, assign) NSUInteger daysPerWeek;
 
-@property (nonatomic, strong) NSMutableArray *tableViewData;
-@property (nonatomic, strong) UITableView *tableView;
-
 @end
 
 
@@ -281,11 +278,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[overlayView]|" options:NSLayoutFormatAlignAllTop metrics:nil views:viewsDictionary]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[overlayView(==overlayViewHeight)]" options:NSLayoutFormatAlignAllTop metrics:metricsDictionary views:viewsDictionary]];
-    
-    //Configure Table View
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height*0.7) style:UITableViewStylePlain];
-    [self.view addSubview:_tableView];
-    
 }
 
 #pragma mark - Rotation Handling
