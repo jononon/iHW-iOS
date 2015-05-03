@@ -5,6 +5,6 @@ DEPENDENCIES:
   - PDTSimpleCalendar (~> 0.7.0)
 
 SPEC CHECKSUMS:
-  PDTSimpleCalendar: b51e26a38a315ff8f4a038ab4cae00ad42bc1e92
+  PDTSimpleCalendar: 8a5dcdb447810a77e68ac8e7b2ef55b6f52f25e9
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.36.4
