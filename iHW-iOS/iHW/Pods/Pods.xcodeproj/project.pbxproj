@@ -7,199 +7,216 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18F334E5D83745E77426C509 /* PDTSimpleCalendarViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E046D919FBCE2E942C249D5 /* PDTSimpleCalendarViewHeader.h */; };
-		24B5471DB8FD86A802760940 /* PDTSimpleCalendarViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E20F5B748B003230E35E3 /* PDTSimpleCalendarViewHeader.m */; };
-		438EE484FBFE807B9062BB66 /* PDTSimpleCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E2EC31073525567BE8A76A /* PDTSimpleCalendarViewCell.m */; };
-		573B9F4DA653B909BB68BA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E105C0A04B4A5259B2A8C436 /* Foundation.framework */; };
-		5DCE6133C48E782415DC5E94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E105C0A04B4A5259B2A8C436 /* Foundation.framework */; };
-		6C8F844F152F6200ECB1B1AD /* Pods-PDTSimpleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF9D319EE129BE9E942F00 /* Pods-PDTSimpleCalendar-dummy.m */; };
-		6F5D171A1351EF115904FD6D /* PDTSimpleCalendarViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8104DEF25218F4A529AEF6 /* PDTSimpleCalendarViewFlowLayout.h */; };
-		782A08C4BACCEA7DB1FB0856 /* PDTSimpleCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEA5A2CBAF00E89E29C3CFC /* PDTSimpleCalendar.h */; };
-		8DD3B327CD636514FC942C7E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5DED626AEFD982EA753D6 /* Pods-dummy.m */; };
-		98CD3DE61E31E085EA70D158 /* PDTSimpleCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBBE60D2EDBA0F9EC5249AB /* PDTSimpleCalendarViewController.h */; };
-		A4458E29DF15D9D079CE6F2D /* PDTSimpleCalendarViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C26BE7B10224D67921B778FE /* PDTSimpleCalendarViewCell.h */; };
-		D721F55B9D83E0082C87DCB1 /* PDTSimpleCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8D4C092E995F8E64ACA710 /* PDTSimpleCalendarViewFlowLayout.m */; };
-		EAA23CD7395C99C25D15C93B /* PDTSimpleCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DE85669804F7E47FFB8DDD /* PDTSimpleCalendarViewController.m */; };
+		2666A6D6AA879E9E6200F743 /* PDTSimpleCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8081442D931C4A5BDFC8EE90 /* PDTSimpleCalendarViewController.m */; };
+		2DB2C2EF38150E2DFB95BC8C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C64FA6F360DBA09B4D5DE560 /* Pods-dummy.m */; };
+		6B28BF6D820A6F3A08CDE27B /* PDTSimpleCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAF2CFCE799A50A58A9466 /* PDTSimpleCalendarViewFlowLayout.m */; };
+		7B38A18D3C44DFEF71F1643D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858FDFFE4D2BDCFBD8610BDB /* Foundation.framework */; };
+		81D7B79D497C32046E8343EC /* Pods-PDTSimpleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E8E0202EF9DBB66819CE1 /* Pods-PDTSimpleCalendar-dummy.m */; };
+		927B352BCFA4367A59C14AB2 /* PDTSimpleCalendarViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A79EF89BDF62C844A154A187 /* PDTSimpleCalendarViewHeader.m */; };
+		A62FF852DA31E617D28AED92 /* PDTSimpleCalendarViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A9021817D733484BE3894C /* PDTSimpleCalendarViewCell.h */; };
+		AD49531C7707E39C1F103755 /* PDTSimpleCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9E95A3E9E738134A70A61E /* PDTSimpleCalendarViewCell.m */; };
+		B26FE066884229B18B5EFCE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858FDFFE4D2BDCFBD8610BDB /* Foundation.framework */; };
+		C453A66DB21006EF991A4ECC /* PDTSimpleCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 373FCF611F83004FBF801541 /* PDTSimpleCalendarViewController.h */; };
+		C81CBDC8FC994B31C23554D1 /* PDTSimpleCalendarViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A262941DAFC226601A94DFCD /* PDTSimpleCalendarViewHeader.h */; };
+		D52FD507D49810F38605FEF8 /* PDTSimpleCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A89719FF348BEBDC816E44 /* PDTSimpleCalendar.h */; };
+		EB70E7F82F40266756DEAD8C /* PDTSimpleCalendarViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF9E17D587D56BBA420B47D /* PDTSimpleCalendarViewFlowLayout.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		89D577D624BC2ADBF0BEDCA1 /* PBXContainerItemProxy */ = {
+		280CB48AC81375A2EF06C3BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57589009126C7552C1EBDBDF /* Project object */;
+			containerPortal = E0977ED0246DD660E06C5815 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 563EB4E545FFECE5C43F0628;
+			remoteGlobalIDString = A2D914E3C5DEDF5B2310008C;
 			remoteInfo = "Pods-PDTSimpleCalendar";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B36F5346333D54921AF0FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		0BC7F6776A95F98E816D1EF4 /* libPods-PDTSimpleCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDTSimpleCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		176DB97B921A5CD85AFADC48 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		2761E292F8B33CBB0B079A7B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2CBBE60D2EDBA0F9EC5249AB /* PDTSimpleCalendarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewController.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewController.h; sourceTree = "<group>"; };
-		2DC5DED626AEFD982EA753D6 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2FEA5A2CBAF00E89E29C3CFC /* PDTSimpleCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendar.h; path = PDTSimpleCalendar/PDTSimpleCalendar.h; sourceTree = "<group>"; };
-		332229FFF09B3A83F7B9A476 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		400EAB3797A807C7079D30BB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		555E20F5B748B003230E35E3 /* PDTSimpleCalendarViewHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewHeader.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewHeader.m; sourceTree = "<group>"; };
-		5F5776DE44C9F4EA34E58ED9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6090DF70D0ACEBDE950512C5 /* Pods-PDTSimpleCalendar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDTSimpleCalendar-Private.xcconfig"; sourceTree = "<group>"; };
-		6BAF9D319EE129BE9E942F00 /* Pods-PDTSimpleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDTSimpleCalendar-dummy.m"; sourceTree = "<group>"; };
-		6D6B188EBDF34E9427EDBC0D /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		7AB7EF36B770041E45B1E816 /* Pods-PDTSimpleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDTSimpleCalendar-prefix.pch"; sourceTree = "<group>"; };
-		7E046D919FBCE2E942C249D5 /* PDTSimpleCalendarViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewHeader.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewHeader.h; sourceTree = "<group>"; };
-		7F8104DEF25218F4A529AEF6 /* PDTSimpleCalendarViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewFlowLayout.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewFlowLayout.h; sourceTree = "<group>"; };
-		82E2EC31073525567BE8A76A /* PDTSimpleCalendarViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewCell.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewCell.m; sourceTree = "<group>"; };
-		9931251761DFDDD746DD0A3C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		C26BE7B10224D67921B778FE /* PDTSimpleCalendarViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewCell.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewCell.h; sourceTree = "<group>"; };
-		CC8D4C092E995F8E64ACA710 /* PDTSimpleCalendarViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewFlowLayout.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewFlowLayout.m; sourceTree = "<group>"; };
-		E105C0A04B4A5259B2A8C436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F8DE85669804F7E47FFB8DDD /* PDTSimpleCalendarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewController.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewController.m; sourceTree = "<group>"; };
-		FFBABED77C9459E28CE30AAB /* Pods-PDTSimpleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDTSimpleCalendar.xcconfig"; sourceTree = "<group>"; };
+		148715551D3845B11C1D2C13 /* Pods-PDTSimpleCalendar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDTSimpleCalendar-Private.xcconfig"; sourceTree = "<group>"; };
+		2697FB8B428733EEA814DFEF /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		373FCF611F83004FBF801541 /* PDTSimpleCalendarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewController.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewController.h; sourceTree = "<group>"; };
+		3A1E8E0202EF9DBB66819CE1 /* Pods-PDTSimpleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDTSimpleCalendar-dummy.m"; sourceTree = "<group>"; };
+		3ADD679C8262939DE6179B03 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		3B97EBC39B758BEEE2AB82F3 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		3F8953ABF4EEE49FFE59F947 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4044E2AD5CB726FBCB7C1440 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		41A9021817D733484BE3894C /* PDTSimpleCalendarViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewCell.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewCell.h; sourceTree = "<group>"; };
+		6653FD56A46270A7402F2105 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		8081442D931C4A5BDFC8EE90 /* PDTSimpleCalendarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewController.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewController.m; sourceTree = "<group>"; };
+		858FDFFE4D2BDCFBD8610BDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88BD4326981890FB3101FC14 /* Pods-PDTSimpleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDTSimpleCalendar.xcconfig"; sourceTree = "<group>"; };
+		A262941DAFC226601A94DFCD /* PDTSimpleCalendarViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewHeader.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewHeader.h; sourceTree = "<group>"; };
+		A4A89719FF348BEBDC816E44 /* PDTSimpleCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendar.h; path = PDTSimpleCalendar/PDTSimpleCalendar.h; sourceTree = "<group>"; };
+		A79EF89BDF62C844A154A187 /* PDTSimpleCalendarViewHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewHeader.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewHeader.m; sourceTree = "<group>"; };
+		AA70E1D5A310EC6C6D3EDFBE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEF9E17D587D56BBA420B47D /* PDTSimpleCalendarViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDTSimpleCalendarViewFlowLayout.h; path = PDTSimpleCalendar/PDTSimpleCalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		B7BA385C616BFECD8D71FE5C /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0206C113F1C446D987B7035 /* libPods-PDTSimpleCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDTSimpleCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64FA6F360DBA09B4D5DE560 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E3FAF2CFCE799A50A58A9466 /* PDTSimpleCalendarViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewFlowLayout.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		EE9E95A3E9E738134A70A61E /* PDTSimpleCalendarViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDTSimpleCalendarViewCell.m; path = PDTSimpleCalendar/PDTSimpleCalendarViewCell.m; sourceTree = "<group>"; };
+		F7C12B56D44CFEDFA3F0EBB1 /* Pods-PDTSimpleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDTSimpleCalendar-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E861B5543672E3DCB16565B /* Frameworks */ = {
+		3A968252ACEF4EAB96312E05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573B9F4DA653B909BB68BA76 /* Foundation.framework in Frameworks */,
+				7B38A18D3C44DFEF71F1643D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		995D2A5174BF2E2B300C34E0 /* Frameworks */ = {
+		4223429BC5507AC2E5C41F21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCE6133C48E782415DC5E94 /* Foundation.framework in Frameworks */,
+				B26FE066884229B18B5EFCE1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22529A47D3C58F50DAADC16A /* Targets Support Files */ = {
+		0375600987B318CA8FBDA401 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97F2DEDD4C82AE723FB31BF1 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3BE0FE6338A4D8625C5B42EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFBABED77C9459E28CE30AAB /* Pods-PDTSimpleCalendar.xcconfig */,
-				6090DF70D0ACEBDE950512C5 /* Pods-PDTSimpleCalendar-Private.xcconfig */,
-				6BAF9D319EE129BE9E942F00 /* Pods-PDTSimpleCalendar-dummy.m */,
-				7AB7EF36B770041E45B1E816 /* Pods-PDTSimpleCalendar-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-PDTSimpleCalendar";
-			sourceTree = "<group>";
-		};
-		8BC06DABCE783B661769CF17 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E105C0A04B4A5259B2A8C436 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		930846658535BCBFDC38464B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F9E3E7E65B9152CE0D64DA82 /* PDTSimpleCalendar */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		937A04BA17CE287EA16ADBFD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8BC06DABCE783B661769CF17 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		97F2DEDD4C82AE723FB31BF1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F5776DE44C9F4EA34E58ED9 /* Pods-acknowledgements.markdown */,
-				176DB97B921A5CD85AFADC48 /* Pods-acknowledgements.plist */,
-				2DC5DED626AEFD982EA753D6 /* Pods-dummy.m */,
-				6D6B188EBDF34E9427EDBC0D /* Pods-environment.h */,
-				9931251761DFDDD746DD0A3C /* Pods-resources.sh */,
-				04B36F5346333D54921AF0FD /* Pods.debug.xcconfig */,
-				400EAB3797A807C7079D30BB /* Pods.release.xcconfig */,
+				2697FB8B428733EEA814DFEF /* Pods-acknowledgements.markdown */,
+				B7BA385C616BFECD8D71FE5C /* Pods-acknowledgements.plist */,
+				C64FA6F360DBA09B4D5DE560 /* Pods-dummy.m */,
+				3B97EBC39B758BEEE2AB82F3 /* Pods-environment.h */,
+				6653FD56A46270A7402F2105 /* Pods-resources.sh */,
+				3ADD679C8262939DE6179B03 /* Pods.debug.xcconfig */,
+				4044E2AD5CB726FBCB7C1440 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		C0E1E8CCE79097000D2ED168 /* Products */ = {
+		30DBE38567D383F605F5D3A7 = {
 			isa = PBXGroup;
 			children = (
-				332229FFF09B3A83F7B9A476 /* libPods.a */,
-				0BC7F6776A95F98E816D1EF4 /* libPods-PDTSimpleCalendar.a */,
+				AA70E1D5A310EC6C6D3EDFBE /* Podfile */,
+				D8DE9CB4ED7C9F20007BED62 /* Frameworks */,
+				5006AF609BC64CB5AA74ECBB /* Pods */,
+				A2668A885B12BB6550C76FDF /* Products */,
+				E4AEBC2B1D4B7A78A553B121 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5006AF609BC64CB5AA74ECBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B282A951678CE6CB8ACDF0 /* PDTSimpleCalendar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53B282A951678CE6CB8ACDF0 /* PDTSimpleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A4A89719FF348BEBDC816E44 /* PDTSimpleCalendar.h */,
+				41A9021817D733484BE3894C /* PDTSimpleCalendarViewCell.h */,
+				EE9E95A3E9E738134A70A61E /* PDTSimpleCalendarViewCell.m */,
+				373FCF611F83004FBF801541 /* PDTSimpleCalendarViewController.h */,
+				8081442D931C4A5BDFC8EE90 /* PDTSimpleCalendarViewController.m */,
+				AEF9E17D587D56BBA420B47D /* PDTSimpleCalendarViewFlowLayout.h */,
+				E3FAF2CFCE799A50A58A9466 /* PDTSimpleCalendarViewFlowLayout.m */,
+				A262941DAFC226601A94DFCD /* PDTSimpleCalendarViewHeader.h */,
+				A79EF89BDF62C844A154A187 /* PDTSimpleCalendarViewHeader.m */,
+				727574F27A1D664AC2DE7C1B /* Support Files */,
+			);
+			path = PDTSimpleCalendar;
+			sourceTree = "<group>";
+		};
+		727574F27A1D664AC2DE7C1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88BD4326981890FB3101FC14 /* Pods-PDTSimpleCalendar.xcconfig */,
+				148715551D3845B11C1D2C13 /* Pods-PDTSimpleCalendar-Private.xcconfig */,
+				3A1E8E0202EF9DBB66819CE1 /* Pods-PDTSimpleCalendar-dummy.m */,
+				F7C12B56D44CFEDFA3F0EBB1 /* Pods-PDTSimpleCalendar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PDTSimpleCalendar";
+			sourceTree = "<group>";
+		};
+		A2668A885B12BB6550C76FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8953ABF4EEE49FFE59F947 /* libPods.a */,
+				C0206C113F1C446D987B7035 /* libPods-PDTSimpleCalendar.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9565F2EDFD88E9749FD8A6A = {
+		B552F786F069C750406AD181 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2761E292F8B33CBB0B079A7B /* Podfile */,
-				937A04BA17CE287EA16ADBFD /* Frameworks */,
-				930846658535BCBFDC38464B /* Pods */,
-				C0E1E8CCE79097000D2ED168 /* Products */,
-				22529A47D3C58F50DAADC16A /* Targets Support Files */,
+				858FDFFE4D2BDCFBD8610BDB /* Foundation.framework */,
 			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		F9E3E7E65B9152CE0D64DA82 /* PDTSimpleCalendar */ = {
+		D8DE9CB4ED7C9F20007BED62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FEA5A2CBAF00E89E29C3CFC /* PDTSimpleCalendar.h */,
-				C26BE7B10224D67921B778FE /* PDTSimpleCalendarViewCell.h */,
-				82E2EC31073525567BE8A76A /* PDTSimpleCalendarViewCell.m */,
-				2CBBE60D2EDBA0F9EC5249AB /* PDTSimpleCalendarViewController.h */,
-				F8DE85669804F7E47FFB8DDD /* PDTSimpleCalendarViewController.m */,
-				7F8104DEF25218F4A529AEF6 /* PDTSimpleCalendarViewFlowLayout.h */,
-				CC8D4C092E995F8E64ACA710 /* PDTSimpleCalendarViewFlowLayout.m */,
-				7E046D919FBCE2E942C249D5 /* PDTSimpleCalendarViewHeader.h */,
-				555E20F5B748B003230E35E3 /* PDTSimpleCalendarViewHeader.m */,
-				3BE0FE6338A4D8625C5B42EF /* Support Files */,
+				B552F786F069C750406AD181 /* iOS */,
 			);
-			path = PDTSimpleCalendar;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4AEBC2B1D4B7A78A553B121 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0375600987B318CA8FBDA401 /* Pods */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28F652CF3C593537281904F4 /* Headers */ = {
+		6B65C7157F5949D5D54F8855 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782A08C4BACCEA7DB1FB0856 /* PDTSimpleCalendar.h in Headers */,
-				A4458E29DF15D9D079CE6F2D /* PDTSimpleCalendarViewCell.h in Headers */,
-				98CD3DE61E31E085EA70D158 /* PDTSimpleCalendarViewController.h in Headers */,
-				6F5D171A1351EF115904FD6D /* PDTSimpleCalendarViewFlowLayout.h in Headers */,
-				18F334E5D83745E77426C509 /* PDTSimpleCalendarViewHeader.h in Headers */,
+				D52FD507D49810F38605FEF8 /* PDTSimpleCalendar.h in Headers */,
+				A62FF852DA31E617D28AED92 /* PDTSimpleCalendarViewCell.h in Headers */,
+				C453A66DB21006EF991A4ECC /* PDTSimpleCalendarViewController.h in Headers */,
+				EB70E7F82F40266756DEAD8C /* PDTSimpleCalendarViewFlowLayout.h in Headers */,
+				C81CBDC8FC994B31C23554D1 /* PDTSimpleCalendarViewHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		563EB4E545FFECE5C43F0628 /* Pods-PDTSimpleCalendar */ = {
+		42CA4AE72C97E57ADEC71233 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F3E939517FED98FA747D471 /* Build configuration list for PBXNativeTarget "Pods-PDTSimpleCalendar" */;
+			buildConfigurationList = 5F157FABB6C424CC55278EC6 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				94D11546137717155848E5C6 /* Sources */,
-				6E861B5543672E3DCB16565B /* Frameworks */,
-				28F652CF3C593537281904F4 /* Headers */,
+				683187369B32473E58B44A4E /* Sources */,
+				3A968252ACEF4EAB96312E05 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29029749E19ADF5F6A1875C8 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3F8953ABF4EEE49FFE59F947 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2D914E3C5DEDF5B2310008C /* Pods-PDTSimpleCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522EEE04543A36E93F49FD16 /* Build configuration list for PBXNativeTarget "Pods-PDTSimpleCalendar" */;
+			buildPhases = (
+				AE8FC736492D6256CAF07D28 /* Sources */,
+				4223429BC5507AC2E5C41F21 /* Frameworks */,
+				6B65C7157F5949D5D54F8855 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -207,104 +224,103 @@
 			);
 			name = "Pods-PDTSimpleCalendar";
 			productName = "Pods-PDTSimpleCalendar";
-			productReference = 0BC7F6776A95F98E816D1EF4 /* libPods-PDTSimpleCalendar.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		DE50205CE41652003803444D /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5E5948A145405A5C0452A56 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				2533A3ECB5336015285B81AC /* Sources */,
-				995D2A5174BF2E2B300C34E0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				562F66D42263F0FA88D1D06C /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 332229FFF09B3A83F7B9A476 /* libPods.a */;
+			productReference = C0206C113F1C446D987B7035 /* libPods-PDTSimpleCalendar.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		57589009126C7552C1EBDBDF /* Project object */ = {
+		E0977ED0246DD660E06C5815 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 7BA0B877D2D145660A0DDE00 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 940790C973AB4EF5462BBF19 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C9565F2EDFD88E9749FD8A6A;
-			productRefGroup = C0E1E8CCE79097000D2ED168 /* Products */;
+			mainGroup = 30DBE38567D383F605F5D3A7;
+			productRefGroup = A2668A885B12BB6550C76FDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE50205CE41652003803444D /* Pods */,
-				563EB4E545FFECE5C43F0628 /* Pods-PDTSimpleCalendar */,
+				42CA4AE72C97E57ADEC71233 /* Pods */,
+				A2D914E3C5DEDF5B2310008C /* Pods-PDTSimpleCalendar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2533A3ECB5336015285B81AC /* Sources */ = {
+		683187369B32473E58B44A4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD3B327CD636514FC942C7E /* Pods-dummy.m in Sources */,
+				2DB2C2EF38150E2DFB95BC8C /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D11546137717155848E5C6 /* Sources */ = {
+		AE8FC736492D6256CAF07D28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438EE484FBFE807B9062BB66 /* PDTSimpleCalendarViewCell.m in Sources */,
-				EAA23CD7395C99C25D15C93B /* PDTSimpleCalendarViewController.m in Sources */,
-				D721F55B9D83E0082C87DCB1 /* PDTSimpleCalendarViewFlowLayout.m in Sources */,
-				24B5471DB8FD86A802760940 /* PDTSimpleCalendarViewHeader.m in Sources */,
-				6C8F844F152F6200ECB1B1AD /* Pods-PDTSimpleCalendar-dummy.m in Sources */,
+				AD49531C7707E39C1F103755 /* PDTSimpleCalendarViewCell.m in Sources */,
+				2666A6D6AA879E9E6200F743 /* PDTSimpleCalendarViewController.m in Sources */,
+				6B28BF6D820A6F3A08CDE27B /* PDTSimpleCalendarViewFlowLayout.m in Sources */,
+				927B352BCFA4367A59C14AB2 /* PDTSimpleCalendarViewHeader.m in Sources */,
+				81D7B79D497C32046E8343EC /* Pods-PDTSimpleCalendar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		562F66D42263F0FA88D1D06C /* PBXTargetDependency */ = {
+		29029749E19ADF5F6A1875C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PDTSimpleCalendar";
-			target = 563EB4E545FFECE5C43F0628 /* Pods-PDTSimpleCalendar */;
-			targetProxy = 89D577D624BC2ADBF0BEDCA1 /* PBXContainerItemProxy */;
+			target = A2D914E3C5DEDF5B2310008C /* Pods-PDTSimpleCalendar */;
+			targetProxy = 280CB48AC81375A2EF06C3BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5D1647C45267F5FC12529F62 /* Debug */ = {
+		1177B1D293CE6072F8D2D9D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6090DF70D0ACEBDE950512C5 /* Pods-PDTSimpleCalendar-Private.xcconfig */;
+			baseConfigurationReference = 148715551D3845B11C1D2C13 /* Pods-PDTSimpleCalendar-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDTSimpleCalendar/Pods-PDTSimpleCalendar-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		A5B33F545096A7B13C32142A /* Debug */ = {
+		531E219ACA014A75C0AC9F6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04B36F5346333D54921AF0FD /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 4044E2AD5CB726FBCB7C1440 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		54353FF57C2E4F5A361D803E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADD679C8262939DE6179B03 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -318,7 +334,23 @@
 			};
 			name = Debug;
 		};
-		A6C70F08059CA926CAB182F0 /* Debug */ = {
+		878F62E6BCA2A25280094381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148715551D3845B11C1D2C13 /* Pods-PDTSimpleCalendar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDTSimpleCalendar/Pods-PDTSimpleCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E841BD3330F9428A667171A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		B96E881E67FFC0E8739AF91F /* Release */ = {
+		EA6388B1C0AB7621491D602C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,69 +423,37 @@
 			};
 			name = Release;
 		};
-		BC592769E54CCB3915BDE400 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6090DF70D0ACEBDE950512C5 /* Pods-PDTSimpleCalendar-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDTSimpleCalendar/Pods-PDTSimpleCalendar-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		EAB9E2C7A85FABD0871401FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 400EAB3797A807C7079D30BB /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F3E939517FED98FA747D471 /* Build configuration list for PBXNativeTarget "Pods-PDTSimpleCalendar" */ = {
+		522EEE04543A36E93F49FD16 /* Build configuration list for PBXNativeTarget "Pods-PDTSimpleCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D1647C45267F5FC12529F62 /* Debug */,
-				BC592769E54CCB3915BDE400 /* Release */,
+				878F62E6BCA2A25280094381 /* Debug */,
+				1177B1D293CE6072F8D2D9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BA0B877D2D145660A0DDE00 /* Build configuration list for PBXProject "Pods" */ = {
+		5F157FABB6C424CC55278EC6 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6C70F08059CA926CAB182F0 /* Debug */,
-				B96E881E67FFC0E8739AF91F /* Release */,
+				54353FF57C2E4F5A361D803E /* Debug */,
+				531E219ACA014A75C0AC9F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5E5948A145405A5C0452A56 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		940790C973AB4EF5462BBF19 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5B33F545096A7B13C32142A /* Debug */,
-				EAB9E2C7A85FABD0871401FD /* Release */,
+				8E841BD3330F9428A667171A /* Debug */,
+				EA6388B1C0AB7621491D602C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 57589009126C7552C1EBDBDF /* Project object */;
+	rootObject = E0977ED0246DD660E06C5815 /* Project object */;
 }
