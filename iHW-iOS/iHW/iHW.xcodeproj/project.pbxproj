@@ -1125,6 +1125,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				REZ_SEARCH_PATHS = "$(inherited)";
 				SKIP_INSTALL = YES;
@@ -1171,6 +1172,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				REZ_SEARCH_PATHS = "$(inherited)";
 				SKIP_INSTALL = YES;
